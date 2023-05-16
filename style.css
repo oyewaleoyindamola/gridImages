@@ -9,31 +9,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:cadetblue;
 }
 .container{
-    background-color: #c4c4c4;
-    height: 80%;
+    background-color: skyblue;
+    height: 100%;
     width: 60%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    padding: 4rem;
-}
-.top{
-    background-color: yellow;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
 }
 img{
-    width: 10rem;
-    height: 100%;
+    width: 15rem;
+    height: 11rem
 }
-.buttom{
-    background-color: aqua;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 1rem;
-}
-/* .container img{
-    height: 90%;
-} */
+
