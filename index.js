@@ -2,17 +2,7 @@ document.title = "GRID IMAGES."
 const body = document.body;
 
 const mainDiv = document.createElement("div");
-const divTop = document.createElement("div");
-const divButt = document.createElement("div");
 const div1 = document.createElement("div");
-const div2 = document.createElement("div");
-const div3 = document.createElement("div");
-const div4 = document.createElement("div");
-const div5 = document.createElement("div");
-const div6 = document.createElement("div");
-const div7 = document.createElement("div");
-const div8 = document.createElement("div");
-const div9 = document.createElement("div");
 
 const img1 = document.createElement("img");
 const img2 = document.createElement("img");
@@ -62,15 +52,8 @@ img9.setAttribute(
 );
 
 mainDiv.classList.add("container");
-mainDiv.append(div1, div2, div3, div4, div5, div6, div7, div8, div9);
-div1.append(img1);
-div2.append(img2);
-div3.append(img3);
-div4.append(img4);
-div5.append(img5);
-div6.append(img6);
-div7.append(img7);
-div8.append(img8);
-div9.append(img9);
+mainDiv.append(div1);
+div1.classList.add("div1");
+div1.append(img1,img2,img3,img4,img5,img6,img7,img8,img9);
 
 body.append(mainDiv);

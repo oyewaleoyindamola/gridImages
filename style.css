@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.container{
     height: 100vh;
     padding: 2rem;
     display: flex;
@@ -11,12 +11,13 @@ body{
     align-items: center;
     background-color:cadetblue;
 }
-.container{
+.div1{
     background-color: skyblue;
     height: 100%;
     width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 2rem;
 }
